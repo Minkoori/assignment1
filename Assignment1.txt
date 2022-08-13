@@ -1,0 +1,26 @@
+package assignment1;
+public class Car {
+public void carbrand() {
+System.out.println("Aulto");
+}
+public String carcolour() {
+return "black";
+}
+public int carnumber() {
+return 123456;
+}
+public int subofnumbers(int a , int b) {
+int c = a -b;
+return c;
+}
+public static void main(String[] args) {
+Car ask = new Car();
+ask.carbrand();
+String carcolour = ask.carcolour();
+System.out.println(carcolour);
+int carnumber = ask.carnumber();
+System.out.println(carnumber);
+int subofnumbers = ask.subofnumbers(10, 10);
+System.out.println(subofnumbers);
+}
+}
